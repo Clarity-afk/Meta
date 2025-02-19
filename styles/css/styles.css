@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+p {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #fff;
+}
+
+.gtext {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #8DFD1B;
+}
+
+.gbtn {
+  font-family: "DM Mono", serif;
+  color: #000000;
+  background-color: #8DFD1B;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 52px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links-list {
+  display: flex;
+}
+
+.nav-list-item {
+  font-family: "DM Mono", serif;
+  padding-right: 40px;
+}
+
+.nav-icon-list {
+  gap: 12px;
+}
+
+.nav-icon-list li {
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */

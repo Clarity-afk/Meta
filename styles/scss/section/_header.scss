@@ -1,0 +1,36 @@
+.header {
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links-list{
+    display: flex;
+}
+
+
+
+.nav-list-item{
+    font-family: $gtext-font;
+    padding-right: 40px;
+}
+
+.nav-icon-list{
+    gap: 12px;
+}
+
+.nav-icon-list li{
+    background-color: $color-white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
