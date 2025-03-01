@@ -1,0 +1,59 @@
+.collection {
+
+}
+
+.collection-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.collection .container{
+    margin: 0px 240px 0px 120px;
+}
+.collection-nft {
+
+}
+.collection-title {
+    font-size: 38px;
+}
+.collection-sectitle {
+    font-size: 38px;
+    color: $color-gray;
+    margin-bottom: 42px;
+}
+.collection-text {
+    max-width: 545px;
+}
+.collection-green {
+    color: $color-green;
+    font-family: $gtext-font;
+    font-size: 21px;
+    line-height: 32px;
+
+    border-left: 2px solid;
+    border-color: $color-green;
+    padding-left: 22px;
+
+    margin-bottom: 32px;
+}
+.collection-info {
+    font-family: $inter-font;
+}
+.collection-info-pgh {
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: left;
+}
+.collection-btn {
+    font-family: $dmmono-font;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0%;
+    background-color: $color-black;
+    border: 1px solid $color-green;
+    color: $color-white;
+    padding: 10px 33px 16px 33px;
+}

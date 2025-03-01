@@ -5,6 +5,8 @@ body {
   background-color: #000000;
   margin: 0;
   padding: 0;
+  height: 100%;
+  max-width: 100%;
 }
 
 a {
@@ -31,12 +33,6 @@ p {
   font-weight: 400;
   font-size: 21px;
   color: #8DFD1B;
-}
-
-.gbtn {
-  font-family: "DM Mono", serif;
-  color: #000000;
-  background-color: #8DFD1B;
 }
 
 .container {
@@ -75,4 +71,282 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: none;
+  margin: 0px 76px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.welcome-title {
+  font-size: 51px;
+  margin-bottom: 44px;
+  max-width: 480px;
+}
+
+.welcome-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 44px;
+  max-width: 340px;
+}
+
+.welcome-button {
+  padding: 17px 40px 27px 40px;
+  background-color: #8DFD1B;
+  font-family: "DM Mono", serif;
+}
+
+.collection-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.collection .container {
+  margin: 0px 240px 0px 120px;
+}
+
+.collection-title {
+  font-size: 38px;
+}
+
+.collection-sectitle {
+  font-size: 38px;
+  color: #a8a8a8;
+  margin-bottom: 42px;
+}
+
+.collection-text {
+  max-width: 545px;
+}
+
+.collection-green {
+  color: #8DFD1B;
+  font-family: "DM Mono", serif;
+  font-size: 21px;
+  line-height: 32px;
+  border-left: 2px solid;
+  border-color: #8DFD1B;
+  padding-left: 22px;
+  margin-bottom: 32px;
+}
+
+.collection-info {
+  font-family: "Inter", serif;
+}
+
+.collection-info-pgh {
+  display: flex;
+  padding-bottom: 20px;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.collection-btn {
+  font-family: "DM Mono", serif;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0%;
+  background-color: #000000;
+  border: 1px solid #8DFD1B;
+  color: #fff;
+  padding: 10px 33px 16px 33px;
+}
+
+.artists-string {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  margin-top: 120px;
+}
+
+.artists-text {
+  font-family: "Audiowide", serif;
+  font-size: 79px;
+  color: #fff;
+  padding-right: 394px;
+}
+
+.artists-people {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1160px;
+  margin: 120px 240px 240px 40px;
+  gap: 60px;
+}
+
+.artists-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artists-name {
+  font-family: "DM Mono", serif;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 240px 120px 40px;
+}
+
+.story-title {
+  font-family: "Audiowide", serif;
+  font-size: 38px;
+  align-items: center;
+}
+
+.story-title .gray-color {
+  color: #a8a8a8;
+}
+
+.story-header {
+  display: flex;
+  justify-content: center;
+}
+
+.story-list-item {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  max-width: 282px;
+  font-family: "DM Mono", serif;
+  cursor: pointer;
+  padding: 25px 134px 31px 28px;
+}
+
+.story-list-item.active {
+  color: #8DFD1B;
+  background-color: #222222;
+}
+
+.story-content {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  max-width: 878px;
+}
+
+.story-img {
+  width: 170px;
+  height: 250px;
+}
+
+.story-content-header {
+  color: #8DFD1B;
+  font-family: "DM Mono", serif;
+  font-size: 21px;
+  line-height: 32px;
+  border-left: 2px solid;
+  border-color: #8DFD1B;
+  padding-left: 22px;
+  margin-bottom: 32px;
+}
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 40px;
+}
+
+.story-content-sbtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.story-content-pgh {
+  font-family: "Inter", serif;
+  font-size: 16px;
+}
+
+.roadmap-title {
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.roadmap-list-item {
+  background-color: #222222;
+}
+
+.item-header {
+  display: flex;
+}
+
+.item-count {
+  color: #8DFD1B;
+  font-family: "DM Mono", serif;
+  font-size: 28px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8DFD1B;
+}
+
+.item-count.completed {
+  background-color: #8DFD1B;
+  color: #fff;
+}
+
+.text-status {
+  font-size: 8px;
+  letter-spacing: 1px;
+  font-family: "DM Mono", serif;
+  text-transform: uppercase;
+  color: #8DFD1B;
+}
+
+.text-title {
+  font-family: "DM Mono", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.item-content {
+  display: flex;
+}
+
+.content-quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-pgh {
+  font-family: "Inter", serif;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.content-desc {
+  font-family: "Inter", serif;
+}
+
+.desc-pgh {
+  font-family: "Inter", serif;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,6 @@
 // global
 
-@import "./global/global.scss";
+@import "./global/global";
 
 // elements
 
@@ -8,4 +8,9 @@
 
 // section
 
-@import "./section/header.scss";
+@import "./section/header";
+@import "./section/welcome";
+@import "./section/collection";
+@import "./section/artists";
+@import "./section/story";
+@import "./section/roadmap";

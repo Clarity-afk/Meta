@@ -1,0 +1,37 @@
+.artists {
+
+}
+.artists-container {
+
+}
+.artists-string {
+    display: flex;
+    flex-direction: row;
+    // transform: translateX(-100px); тогда на 100 пикселей смещается оверфлоу
+    overflow-x: hidden;
+    margin-top: 120px;
+}
+.artists-text {
+    font-family: $audio-font;
+    font-size: 79px;
+    color: $color-white;
+    padding-right: 394px;
+    
+}
+.artists-people {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 120px 240px 240px 40px;
+    gap: 60px;
+}
+.artists-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.artists-name {
+    font-family: $dmmono-font;
+    font-size: 16px;
+    padding-top: 20px;
+}

@@ -6,17 +6,25 @@ $color-green: #8DFD1B;
 $color-black: #000000;
 $color-white: #fff;
 $color-gray: #a8a8a8;
+$color-dack-gray: #222222;
 
 $header-font: "Audiowide", serif;;
 $pgh-font: "Inter", serif;;
 $gtext-font: "DM Mono", serif;
 
+$audio-font: "Audiowide", serif;;
+$inter-font: "Inter", serif;;
+$dmmono-font: "DM Mono", serif;
+
 $gtext-font-size: 21px;
+$pgh-font-size: 16px;
 
 body{
     background-color: $color-black;
     margin: 0;
     padding: 0;
+    height: 100%;
+    max-width: 100%;
 }
 
 a{
@@ -43,13 +51,6 @@ p{
     font-weight: 400;
     font-size: $gtext-font-size;
     color: $color-green;
-}
-
-.gbtn{
-    font-family: $gtext-font;
-    color: $color-black;
-    background-color: $color-green;
-
 }
 
 .container{

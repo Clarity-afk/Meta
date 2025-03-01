@@ -1,0 +1,91 @@
+// .roadmap {
+
+// }
+// .roadmap-background-top-image {
+
+// }
+// .roadmap-container {
+
+// }
+// .roadmap-circle {
+
+// }
+// .roadmap-circle1 {
+
+// }
+// .roadmap-circle2 {
+
+// }
+// .roadmap-circle3 {
+
+// }
+.roadmap-title {
+    display: flex;
+    justify-content: center;
+}
+.roadmap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.roadmap-list-item {
+    background-color: $color-dack-gray;
+}
+.item-header {
+    display: flex;
+}
+.item-count {
+    color: $color-green;
+    font-family: $dmmono-font;
+    font-size: 28px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-green;
+    
+}
+.item-count.completed {
+    background-color: $color-green;
+    color: $color-white;
+}
+.item-text {
+    
+}
+.text-status {
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-family: $dmmono-font;
+    text-transform: uppercase;
+
+    color: $color-green;
+}
+.text-title {
+    font-family: $dmmono-font;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.item-content {
+    display: flex;
+    
+}
+.content-img {
+
+}
+.content-quote {
+    display: flex;
+    flex-direction: column;
+    
+}
+.quote-pgh {
+    font-family: $inter-font;
+    column-gap: 20px;
+}
+.content-desc {
+    font-family: $inter-font;
+}
+.desc-pgh {
+    font-family: $inter-font;
+}
