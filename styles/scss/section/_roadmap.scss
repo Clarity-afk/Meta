@@ -22,6 +22,9 @@
 .roadmap-title {
     display: flex;
     justify-content: center;
+    margin: 115px 0px;
+    font-size: 38px;
+
 }
 .roadmap-list {
     display: flex;
@@ -31,9 +34,17 @@
 }
 .roadmap-list-item {
     background-color: $color-dack-gray;
+    border: 1px solid $color-green;
+    max-width: 540px;
+
+    margin-bottom: 140px;
 }
 .item-header {
     display: flex;
+    border-bottom: 1px solid $color-green;
+    align-items: center;
+    justify-content: start;
+    padding: 12px 0px 12px 12px;
 }
 .item-count {
     color: $color-green;
@@ -52,7 +63,7 @@
     color: $color-white;
 }
 .item-text {
-    
+    padding-left: 12px;
 }
 .text-status {
     font-size: 8px;
@@ -69,23 +80,32 @@
 }
 .item-content {
     display: flex;
-    
+    margin: 15px 13px 22px 13px;
+    align-items: center;
 }
-.content-img {
 
+.item-content-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: $inter-font;
 }
+
 .content-quote {
     display: flex;
     flex-direction: column;
-    
+    margin-top: 30px;
+
+    padding: 0px 0px 15px 30px;
 }
 .quote-pgh {
-    font-family: $inter-font;
-    column-gap: 20px;
+    
 }
 .content-desc {
-    font-family: $inter-font;
+    
 }
 .desc-pgh {
-    font-family: $inter-font;
+    padding-right: 10px;
 }
+
+
