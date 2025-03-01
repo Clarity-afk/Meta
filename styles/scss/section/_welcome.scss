@@ -31,11 +31,20 @@
   max-width: 340px;
 }
 .welcome-button {
-  padding: 17px 40px 27px 40px;
+  padding: 22px 40px;
   
 
   background-color: $color-green;
   font-family: $gtext-font;
+
+  border: none;
+}
+
+.welcome-button:hover{
+  font-weight: 800;
+  font-size: 18px;
+
+  transition: all 0.7s;
 }
 
 .welcome-img{
