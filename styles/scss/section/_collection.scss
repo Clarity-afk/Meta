@@ -1,16 +1,15 @@
 .collection {
-
+    margin-top: 114px;
+    max-width: 1450px;
 }
 
 .collection-container {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 
-.collection .container{
-    margin: 0px 240px 0px 120px;
-}
+
 .collection-nft {
 
 }
@@ -42,8 +41,8 @@
 }
 .collection-info-pgh {
     display: flex;
-    padding-bottom: 20px;
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
     line-height: 26px;
     text-align: left;
 }
@@ -56,11 +55,10 @@
     border: 1px solid $color-green;
     color: $color-white;
     padding: 10px 33px 16px 33px;
+    transition: all 0.2s ease-in;
 }
 
 .collection-btn:hover{
     background-color: $color-green;
     color: $color-black;
-
-    transition: all 0.2s ease-in;
 }

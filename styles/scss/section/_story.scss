@@ -1,11 +1,9 @@
 .story {
-
+    max-width: 1450px;
 }
 .story-container {
     display: flex;
     flex-direction: row;
-
-    margin: 60px 240px 120px 40px;
 }
 .story-title {
     font-family: $audio-font;
@@ -65,10 +63,6 @@
 }
 
 .story-text {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-
     padding-left: 40px;
 }
 

@@ -40,10 +40,14 @@ p {
   margin: 0 auto;
 }
 
+.header {
+  padding: 52px;
+  max-width: 1450px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 52px;
 }
 
 .nav-list {
@@ -57,12 +61,12 @@ p {
 
 .nav-list-item {
   font-family: "DM Mono", serif;
-  padding-right: 40px;
+  margin-right: 40px;
+  transition: color 0.2s ease-in;
 }
 
 .nav-list-item a:hover {
   color: #8DFD1B;
-  transition: all 0.2s ease-in;
 }
 
 .nav-icon-list {
@@ -76,12 +80,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s ease-in;
 }
 
 .nav-icon-list li:hover {
-  width: 50px;
-  height: 50px;
-  transition: all 0.2s ease-in;
+  background-color: #8DFD1B;
 }
 
 .welcome-container {
@@ -91,12 +94,7 @@ p {
   align-items: center;
   max-width: none;
   margin: 0px 76px;
-}
-
-.welcome-text {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+  max-width: 1450px;
 }
 
 .welcome-title {
@@ -117,22 +115,22 @@ p {
   background-color: #8DFD1B;
   font-family: "DM Mono", serif;
   border: none;
+  transition: all 0.7s;
 }
 
 .welcome-button:hover {
-  font-weight: 800;
-  font-size: 18px;
-  transition: all 0.7s;
+  background-color: #fff;
+}
+
+.collection {
+  margin-top: 114px;
+  max-width: 1450px;
 }
 
 .collection-container {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-}
-
-.collection .container {
-  margin: 0px 240px 0px 120px;
+  align-items: center;
 }
 
 .collection-title {
@@ -166,8 +164,8 @@ p {
 
 .collection-info-pgh {
   display: flex;
-  padding-bottom: 20px;
-  font-size: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
   line-height: 26px;
   text-align: left;
 }
@@ -181,12 +179,16 @@ p {
   border: 1px solid #8DFD1B;
   color: #fff;
   padding: 10px 33px 16px 33px;
+  transition: all 0.2s ease-in;
 }
 
 .collection-btn:hover {
   background-color: #8DFD1B;
   color: #000000;
-  transition: all 0.2s ease-in;
+}
+
+.artists {
+  max-width: 1450px;
 }
 
 .artists-string {
@@ -200,14 +202,15 @@ p {
   font-family: "Audiowide", serif;
   font-size: 79px;
   color: #fff;
-  padding-right: 394px;
+  margin-right: 394px;
+  animation: marquee infinite 15s linear;
+  margin-bottom: 140px;
 }
 
 .artists-people {
   display: flex;
   flex-wrap: wrap;
   max-width: 1160px;
-  margin: 120px 240px 240px 40px;
   gap: 60px;
 }
 
@@ -223,10 +226,21 @@ p {
   padding-top: 20px;
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.story {
+  max-width: 1450px;
+}
+
 .story-container {
   display: flex;
   flex-direction: row;
-  margin: 60px 240px 120px 40px;
 }
 
 .story-title {
@@ -284,9 +298,6 @@ p {
 }
 
 .story-text {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
   padding-left: 40px;
 }
 
@@ -309,6 +320,10 @@ p {
 
 .story-list-item.active:hover {
   opacity: 1;
+}
+
+.roadmap {
+  max-width: 1450px;
 }
 
 .roadmap-title {

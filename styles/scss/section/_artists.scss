@@ -1,8 +1,8 @@
 .artists {
-
+    max-width: 1450px;
 }
 .artists-container {
-
+    
 }
 .artists-string {
     display: flex;
@@ -15,14 +15,15 @@
     font-family: $audio-font;
     font-size: 79px;
     color: $color-white;
-    padding-right: 394px;
+    margin-right: 394px;
+    animation: marquee infinite 15s linear;
+    margin-bottom: 140px;
     
 }
 .artists-people {
     display: flex;
     flex-wrap: wrap;
     max-width: 1160px;
-    margin: 120px 240px 240px 40px;
     gap: 60px;
 }
 .artists-item {
@@ -34,4 +35,13 @@
     font-family: $dmmono-font;
     font-size: 16px;
     padding-top: 20px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
